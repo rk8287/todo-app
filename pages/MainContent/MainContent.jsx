@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 
 const MainContent = ({
-  selectedTodo,
-  newTodo,
+  selectedTodo = {}, // Default to empty object
+  newTodo = {}, // Default to empty object
   setNewTodo,
   handleUpdateTodo,
   handleDeleteTodo,
