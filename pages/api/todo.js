@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/todos';
+const API_URL = 'https://todo-app-8pwh.onrender.com/api/todos';
 
 export const getTodos = async () => {
   const response = await axios.get(API_URL);
